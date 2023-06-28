@@ -1,5 +1,8 @@
-#Lists
 print("Margaux Maxwell")
+from datetime import date
+print((date.today()))
+print("Homework 2, Part 1")
+#Lists
 numbers = [22, 90, 0, -10, 3, 22, 48]
 print(len(numbers))
 print(numbers[3])
