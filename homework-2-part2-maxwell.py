@@ -66,6 +66,3 @@ if age  > tree['age']:
 
 if age  < tree['age']:
    print("You are younger than the Rumskulla oak")
-
-if 'age'  < tree['age']:
-   print("You are younger than the Rumskulla oak")
