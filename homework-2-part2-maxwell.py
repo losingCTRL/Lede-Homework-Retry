@@ -66,7 +66,8 @@ if age  > tree['age']:
 
 if age  < tree['age']:
    print("You are younger than the Rumskulla oak")
-
+  
+print("")
 #PART TWO: Lists of dictionaries
 
 dictionarylist =[{'location_name': 'Moscow', 
@@ -93,3 +94,9 @@ for dictionary in dictionarylist:
         print("Below the equator!")
     if dictionary['location_name'] == 'Falkland Islands':
        print(f"The Falkland Islands are a biogeographical part of the mild Antarctic zone")
+
+    if dictionary['latitude'] > tree['latitude']:
+        print("North of the Rumskulla oak!")
+    else:
+        print("South of the Rumskulla oak!") 
+    print("")
